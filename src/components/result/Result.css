@@ -1,0 +1,9 @@
+.result {
+  width: 100%;
+  height: 150px;
+}
+
+.result p {
+  font-size: 45pt;
+  float: right;
+}

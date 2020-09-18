@@ -1,0 +1,35 @@
+.calc-button {
+  cursor: grab;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  box-shadow: 6px 6px 16px 0 rgba(209, 205, 199, 0.5),
+    -6px -6px 16px 0 rgba(255, 255, 255, 0.5);
+  color: #6f6f6f;
+}
+
+.calc-button.equal {
+  width: 100%;
+  grid-column: 3/5;
+  border-radius: 10px;
+  font-weight: bold;
+  color: orange;
+}
+
+.calc-button.primary {
+  color: grey;
+  font-weight: bold;
+}
+
+.calc-button.secondary {
+  color: orange;
+  font-weight: bold;
+}
+
+.calc-button:active {
+  box-shadow: inset 6px 6px 16px 0 rgba(209, 205, 199, 0.5),
+    inset -6px -6px 16px 0 rgba(255, 255, 255, 0.5);
+}
